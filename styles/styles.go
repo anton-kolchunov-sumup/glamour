@@ -4,7 +4,7 @@ package styles
 //go:generate go run ../internal/generate-style-json
 
 import (
-	"github.com/charmbracelet/glamour/ansi"
+	"github.com/anton-kolchunov-sumup/glamour/ansi"
 )
 
 const (
