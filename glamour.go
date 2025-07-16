@@ -72,6 +72,7 @@ func NewTermRenderer(options ...TermRendererOption) (*TermRenderer, error) {
 		md: goldmark.New(
 			goldmark.WithExtensions(
 				extension.GFM,
+				extension.Table,
 				extension.DefinitionList,
 			),
 			goldmark.WithParserOptions(
